@@ -1,0 +1,6 @@
+@AutoBuilderApiCore_HostAddress = http://localhost:5116
+
+GET {{AutoBuilderApiCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

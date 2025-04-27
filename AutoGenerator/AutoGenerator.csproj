@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+
+	  <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.13.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Quartz" Version="3.14.0" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.14.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
+	  <PackageReference Include="Hangfire" Version="1.8.18" />
+	  <PackageReference Include="Hangfire.SqlServer" Version="1.8.18" />
+	  <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+  
+  
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="9.0.3" />
+
+		<PackageReference Include="AutoMapper" Version="14.0.0" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+	
+	
+	
+	
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="WasmAI.AutoNotificationService" Version="1.0.0" />
+	</ItemGroup>
+	<PropertyGroup>
+		<PackageId>WasmAI.AutoGenerator</PackageId>
+		<Version>1.0.1-e</Version>
+
+		<Authors>Anas Al-Tawil</Authors>
+
+		<Company>GitHub</Company>
+		<PackageDescription>is a powerful code-generation library for .NET 8 that automates the scaffolding of backend components like models, services, controllers, and more—based on a flexible folder configuration.</PackageDescription>
+		<RepositoryUrl>https://github.com/asgmodel/AutoBuilderApiCore.git</RepositoryUrl>
+	</PropertyGroup>
+</Project>
