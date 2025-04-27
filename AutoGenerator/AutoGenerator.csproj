@@ -48,6 +48,8 @@
 
 		<Company>GitHub</Company>
 		<PackageDescription>is a powerful code-generation library for .NET 8 that automates the scaffolding of backend components like models, services, controllers, and more—based on a flexible folder configuration.</PackageDescription>
-		<RepositoryUrl>https://github.com/asgmodel/AutoBuilderApiCore.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/asgmodel/WasmAI.AutoGenerator.git</RepositoryUrl>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 </Project>
